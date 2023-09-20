@@ -9,4 +9,4 @@
 3. [Скользящее среднее](https://github.com/shakertov/structures/blob/main/algorithms/03-moving-average.py) - дана статистика запросов в списке. Необходимо было применить метод скользящего среднего для сглаживания данных.
 4. [TWO-SUM](https://github.com/shakertov/structures/blob/main/algorithms/04-two-sum.py) - поиск в списке пары чисел в сумме дающих заданное число. Реализация наивного алгоритма.
 5. [TWO-SUM оптимизированный](https://github.com/shakertov/structures/blob/main/algorithms/05-two-sum-opt.py) - поиск в списке пары чисел в сумме дающих заданное число. Реализация оптимизированного алгоритма с помощью метода двух указателей.
-6. [TWO-SUM с выделением памяти](https://github.com/shakertov/structures/blob/main/algorithms/05-two-sum-opt.py) - поиск в списке пары чисел в сумме дающих заданное число. Реализация оптимизированного алгоритма с помощью выделения дополнительной памяти.
+6. [TWO-SUM с выделением памяти](https://github.com/shakertov/structures/blob/main/algorithms/06-two-sum-mem.py) - поиск в списке пары чисел в сумме дающих заданное число. Реализация оптимизированного алгоритма с помощью выделения дополнительной памяти.

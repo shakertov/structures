@@ -18,18 +18,22 @@ def read_input() -> Tuple[list, int, int]:
 
 	return array, num, summ
 
-def two_sum() -> Optional[Tuple[int, int]]:
-	for i in range(0, len(array)):
-		for j in range(i + 1, len(array)):
-			if array[i] + array[j] == summ:
-				return array[i], array[j]
+def two_sum_with_mem() -> Optional[Tuple[int, int]]:
+	buff = set()
+
+	for number in array:
+		difference = summ - number
+		if number in buff:
+			return number, difference
+		else:
+			buff.add(difference)
 	return None
 
 def print_result(result: Optional[Tuple[int, int]]):
-	if result is None:
+	if result == None:
 		print(None)
 	else:
 		print(' '.join(map(str, result)))
 
 array, num, summ = read_input()
-print_result(two_sum())
+print_result(two_sum_with_mem())
