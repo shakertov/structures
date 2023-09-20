@@ -6,3 +6,4 @@
 
 1. [A+B](https://github.com/shakertov/structures/blob/main/algorithms/01-A%2BB.py) - необходимо считать два числа и сложить их, а также вывести в терминале результат сложения.
 2. [Zipper](https://github.com/shakertov/structures/blob/main/algorithms/02-zipper.py) - необходимо два списка одинаковой длины составить в один с чередованием их элементов (элемент первого списка - элемент второго списка - элемент первого списка - элемент второго списка).
+3. [Скользящее среднее](https://github.com/shakertov/structures/blob/main/algorithms/03-moving-average.py) - дана статистика запросов в списке. Необходимо было применить метод скользящего среднего для сглаживания данных.

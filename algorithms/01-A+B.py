@@ -10,10 +10,9 @@ def read_input() -> Tuple[int, int]:
 	b = int(input())
 	return a, b
 
-
-def get_sum(a: int, b: int) -> int:
+def get_sum() -> int:
 	summ = a + b
 	return summ
 
 a, b = read_input()
-print(get_sum(a, b))
+print(get_sum())

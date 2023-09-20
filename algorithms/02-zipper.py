@@ -15,14 +15,12 @@ def read_input() -> (Tuple[List[int], List[int]], int):
 
 	return list_1, list_2, num
 
-
-def zipper(list_1: List[int], list_2: List[int]):
+def zipper():
 	zip_list = []
 	for i in range(0, num):
 		zip_list.append(list_1[i])
 		zip_list.append(list_2[i])
 	return zip_list
 
-
 list_1, list_2, num = read_input()
-print(*zipper(list_1, list_2))
+print(*zipper())
