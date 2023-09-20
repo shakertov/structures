@@ -8,3 +8,4 @@
 2. [Zipper](https://github.com/shakertov/structures/blob/main/algorithms/02-zipper.py) - необходимо два списка одинаковой длины составить в один с чередованием их элементов (элемент первого списка - элемент второго списка - элемент первого списка - элемент второго списка).
 3. [Скользящее среднее](https://github.com/shakertov/structures/blob/main/algorithms/03-moving-average.py) - дана статистика запросов в списке. Необходимо было применить метод скользящего среднего для сглаживания данных.
 4. [TWO-SUM](https://github.com/shakertov/structures/blob/main/algorithms/04-two-sum.py) - поиск в списке пары чисел в сумме дающих заданное число. Реализация наивного алгоритма.
+5. [TWO-SUM оптимизированный](https://github.com/shakertov/structures/blob/main/algorithms/05-two-sum-opt.py) - поиск в списке пары чисел в сумме дающих заданное число. Реализация оптимизированного алгоритма с помощью метода двух указателей.
